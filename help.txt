@@ -1,0 +1,14 @@
+type 'help' for help.
+type 'quit' to quit the program. 
+type 'music' to start or stop the playing of background music.  
+Type 'Front' to read the front wall. 
+Type 'left' to read the left wall. 
+Type 'right' to read the right wall. 
+type 'back' to read the back wall. 
+Type 'ceiling' to read the ceiling. 
+Type 'floor' to read the floor. 
+The word 'prayer' inputs prayer requests. 
+The word 'scripture' inputs scripture. 
+The word 'note' permits the user to input positive notes and quotations.
+Type 'remove' to get options to remove items from any surface. 
+Type 'move' to get options to move items from one surface to another.
