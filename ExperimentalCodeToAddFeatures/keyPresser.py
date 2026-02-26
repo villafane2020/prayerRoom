@@ -10,8 +10,8 @@ controlPressed = False
 def onKeyPress(key):
     #use the same controlPressed variable everywhere.
     global controlPressed 
-    #If the left control key is pressed.
-    if key == keyboard.Key.ctrl_l:
+    #If either control key is pressed.
+    if key == keyboard.Key.ctrl_l or keyboard.Key.ctrl_r:
         #Remember that control is down.
         controlPressed = True
     #If control is down and the left arrow is pressed.
@@ -20,6 +20,10 @@ def onKeyPress(key):
     #If control is down and the up arrow is pressed.
     if controlPressed and key == keyboard.Key.up:
         print("Control + Up Arrow Pressed!")
+    if controlPressed and key == keyboard.Key.right:
+        print("Control + Right Arrow Pressed!")
+    if controlPressed and key == keyboard.Key.down:
+        print("Control + Down Arrow Pressed!")
 
 #This runs whenever any key is released.
 def onKeyRelease(key):
