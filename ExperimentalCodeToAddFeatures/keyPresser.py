@@ -60,6 +60,6 @@ with keyboard.Listener(
     print("Listening for keys.  Press Escape to quit.")    
     listener.join()
 
-
+#Ask Chat GPT to show you the more efficient code and now try to plug it into your prayer room and se if it will load the help file with control h. 
 
 
