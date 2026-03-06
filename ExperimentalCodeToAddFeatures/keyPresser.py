@@ -42,7 +42,8 @@ def onKeyRelease(key):
         #Remember that control is no longer down. 
         controlPressed = False
     #When an arrow key is released, allow another command later.
-    if key == keyboard.Key.left or key == keyboard.Key.right or key == keyboard.Key.up or key == keyboard.Key.down:
+    if key in (keyboard.Key.left, keyboard.Key.right, keyboard.Key.up, keyboard.Key.down):
+    #if key == keyboard.Key.left or key == keyboard.Key.right or key == keyboard.Key.up or key == keyboard.Key.down:
         keyboardCommandAlreadyPressed = False
     #If escape is pressed, stop the program.
     if key == keyboard.Key.esc:
